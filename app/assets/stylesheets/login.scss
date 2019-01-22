@@ -1,0 +1,39 @@
+body{
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #ebebeb;
+    background-color: #2b3e50;
+}
+
+form {
+    // border: 3px solid #f1f1f1;
+}
+input[type=text], input[type=password], input[type=email] {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 75%;
+}
+
+.box-login {
+  margin-top: 1%;
+  text-align: center;
+  // top: 50%;
+}
+#text-label{
+  font-size: 1.35em;
+  text-align: left;
+}
